@@ -15,6 +15,10 @@ body {
     text-align: left;
     display: flex;
     justify-content: space-between;
+    background: url('../img/mobile_img.png') no-repeat;
+    background-position: right;
+    background-size: 430px 782px;
+    padding-bottom: 300px;
 }
 .header-title {
     display: inline-block;
@@ -67,18 +71,9 @@ body {
                 rgba(255, 91, 0, 0.2) 0px 16px 16px,
                 rgba(255, 91, 0, 0.2) 0px 32px 32px;
 }
-.mobile-img {
-    width: 430px;
-    height: 782px;
-    background: url('../img/mobile_img.png') no-repeat;
-    background-size: contain;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 80px;
-}
 
 .app-title {
-    padding: 95px 0 30px 0;
+    padding: 15px 0 30px 0;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -169,7 +164,7 @@ body {
 }
 .plan-item__cost {
     font-size: 48px;
-    font-weight: lighter;
+    font-weight: 300;
     color: #FF7200;
     margin-top: 25px;
     margin-bottom: 10px;

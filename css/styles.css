@@ -82,24 +82,25 @@ body {
     background: #fff;
     padding-bottom: 140px;
 }
-
-.app-title,
-.plan-title,
-.contact-title {
+.app-title {
     padding: 60px 0;
     width: 600px;
     margin: 0 auto;
 }
-
 .app-img {
     width: 940px;
     height: 668px;
     background: url('../img/app_img.png') no-repeat;
     background-size: contain;
     margin: 0 auto;
-
 }
 
+.plan-title,
+.contact-title {
+    padding: 160px 0 50px 0;
+    width: 600px;
+    margin: 0 auto;
+}
 .plan-item {
     display: inline-block;
     color: #535353;
@@ -107,7 +108,7 @@ body {
     padding: 20px;
     border-radius: 4px;
     width: 300px;
-    margin: 10px;
+    margin: 8px;
     box-sizing: border-box;
     vertical-align: top;
     transition: box-shadow .3s ease-out;

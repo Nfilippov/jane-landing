@@ -13,8 +13,6 @@ body {
     max-width: 1030px;
     margin: 0 auto;
     text-align: left;
-    display: flex;
-    justify-content: space-between;
     background: url('../img/mobile_img.png') no-repeat;
     background-position: right;
     background-size: 430px 782px;

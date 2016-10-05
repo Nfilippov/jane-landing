@@ -1,86 +1,64 @@
 @import 'https://fonts.googleapis.com/css?family=Pacifico';
-
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
 
 body {
-    background-color: #F7EDE4;
+    background-color: #eeeeee;
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: 'Avenir Next', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
 }
 
-
 .header {
-    max-width: 780px;
+    max-width: 1030px;
     margin: 0 auto;
     text-align: left;
-    background: url("../img/icon_header.png") no-repeat;
-    background-size: 380px;
-    background-position: 120% 50%;
+    display: flex;
+    justify-content: space-between;
 }
-
+.header-title {
+    display: inline-block;
+    max-width: 400px;
+    vertical-align: top;
+    margin-left: 45px;
+    margin-right: 0;
+    margin-top: 45px;;
+}
 .logo {
     font-family: 'Pacifico', cursive;
     color: #F15E22;
-    font-size: 56px;
+    font-size: 50px;
     text-decoration: none;
+    display: block;
+    margin-bottom: 65px;
 }
-
 .title {
     font-size: 46px;
+    line-height: 45px;
     font-weight: 900;
     text-transform: uppercase;
-    margin: 0 0 24px 0;
 }
-
 .caption {
     font-weight: 500;
+    line-height: 30px;
+    margin: 50px 0;
 }
-
-.header .caption {
-    max-width: 550px;
-}
-
-
-.app,
-.plan,
-.contact {
-    margin-top: 80px;
-}
-
-.header .title {
-    padding-top: 60px;
-}
-
-.app .title {
-    padding-top: 250px;
-}
-
-.plan .title {
-    padding-top: 190px;
-}
-
-.contact .title {
-    padding-top: 110px;
-}
-
-
 .main-button {
-    font-family: 'Avenir Next', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     color: #fff;
     background-color: #000;
     border: 0;
     padding: 20px 0;
-    margin: 40px 0;
-    width: 300px;
+    width: 280px;
     border-radius: 42px;
+    margin-top: 10px;
     transition: box-shadow .3s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
     outline: none;
 }
-
 .main-button:hover {
     cursor: pointer;
     transition: box-shadow .3s ease-out;
@@ -90,47 +68,26 @@ body {
                 rgba(255, 91, 0, 0.2) 0px 16px 16px,
                 rgba(255, 91, 0, 0.2) 0px 32px 32px;
 }
-
-
-.app-title,
-.plan-title,
-.contact-title {
-    max-width: 600px;
-    margin: 0 auto;
-    margin-bottom: 80px;
-}
-
-.app-title {
-    background: url("../img/icon_app.png") no-repeat;
-    background-size: 380px;
-    background-position: center;
-}
-
-.plan-title {
-    background: url("../img/icon_plan.png") no-repeat;
-    background-size: 380px;
-    background-position: center;
-}
-
-
-.app-img {
-    width: 460px;
-    height: 809px;
-    background: url("../img/iphone_preview.png") no-repeat;
+.mobile-img {
+    width: 430px;
+    height: 782px;
+    background: url('../img/mobile_img.png') no-repeat;
     background-size: contain;
     display: inline-block;
-}
-.app-feature__list {
-    display: inline-block;
-    text-align: left;
     vertical-align: top;
-    margin-left: 30px;
-}
-.app-feature__list-item {
-    margin-bottom: 40px;
-    max-width: 300px;
+    margin-top: 80px;
 }
 
+.app {
+    background: #fff;
+}
+.app-img {
+    width: 940px;
+    height: 668px;
+    background: url('../img/app_img.png') no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
 
 .plan-item {
     display: inline-block;
@@ -143,7 +100,7 @@ body {
     box-sizing: border-box;
     vertical-align: top;
     transition: box-shadow .3s ease-out;
-    box-shadow: rgba(255, 91, 0, 0.2) 0px 4px 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
 }
 .plan-item:hover {
     transition: box-shadow .3s ease-out;
@@ -184,7 +141,6 @@ body {
     margin-bottom: 25px;
 }
 
-
 .contact {
     padding-bottom: 100px;
 }
@@ -212,7 +168,6 @@ body {
 .contact .main-button {
     margin-top: 0;
 }
-
 
 .footer {
     background-color: #000;

@@ -80,13 +80,24 @@ body {
 
 .app {
     background: #fff;
+    padding-bottom: 140px;
 }
+
+.app-title,
+.plan-title,
+.contact-title {
+    padding: 60px 0;
+    width: 600px;
+    margin: 0 auto;
+}
+
 .app-img {
     width: 940px;
     height: 668px;
     background: url('../img/app_img.png') no-repeat;
     background-size: contain;
     margin: 0 auto;
+
 }
 
 .plan-item {

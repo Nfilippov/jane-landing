@@ -1,86 +1,65 @@
-@import 'https://fonts.googleapis.com/css?family=Pacifico';
-
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400,600,700,900';
 
 body {
-    background-color: #F7EDE4;
+    background-color: #eeeeee;
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: 'Avenir Next', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
 }
 
-
 .header {
-    max-width: 780px;
+    max-width: 1030px;
     margin: 0 auto;
     text-align: left;
-    background: url("../img/icon_header.png") no-repeat;
-    background-size: 380px;
-    background-position: 120% 50%;
+    background: url('../img/mobile_img.png') no-repeat;
+    background-position: right;
+    background-size: 430px 782px;
+    padding-bottom: 300px;
 }
-
+.header-title {
+    display: inline-block;
+    max-width: 400px;
+    vertical-align: top;
+    margin-left: 45px;
+    margin-top: 45px;;
+}
 .logo {
-    font-family: 'Pacifico', cursive;
-    color: #F15E22;
-    font-size: 56px;
-    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    background: url('../img/logo.png') no-repeat;
+    background-size: contain;
+    margin-top: 35px;
+    margin-bottom: 80px;
 }
-
 .title {
     font-size: 46px;
+    line-height: 45px;
     font-weight: 900;
     text-transform: uppercase;
-    margin: 0 0 24px 0;
+    margin-bottom: 30px;
 }
-
 .caption {
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
 }
-
-.header .caption {
-    max-width: 550px;
-}
-
-
-.app,
-.plan,
-.contact {
-    margin-top: 80px;
-}
-
-.header .title {
-    padding-top: 60px;
-}
-
-.app .title {
-    padding-top: 250px;
-}
-
-.plan .title {
-    padding-top: 190px;
-}
-
-.contact .title {
-    padding-top: 110px;
-}
-
-
 .main-button {
-    font-family: 'Avenir Next', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     color: #fff;
     background-color: #000;
     border: 0;
     padding: 20px 0;
-    margin: 40px 0;
-    width: 300px;
+    width: 280px;
     border-radius: 42px;
+    margin-top: 30px;
     transition: box-shadow .3s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
     outline: none;
 }
-
 .main-button:hover {
     cursor: pointer;
     transition: box-shadow .3s ease-out;
@@ -91,59 +70,79 @@ body {
                 rgba(255, 91, 0, 0.2) 0px 32px 32px;
 }
 
-
-.app-title,
-.plan-title,
-.contact-title {
+.app-title {
+    padding: 15px 0 30px 0;
     max-width: 600px;
     margin: 0 auto;
-    margin-bottom: 80px;
 }
-
-.app-title {
-    background: url("../img/icon_app.png") no-repeat;
-    background-size: 380px;
-    background-position: center;
-}
-
-.plan-title {
-    background: url("../img/icon_plan.png") no-repeat;
-    background-size: 380px;
-    background-position: center;
-}
-
-
 .app-img {
-    width: 460px;
-    height: 809px;
-    background: url("../img/iphone_preview.png") no-repeat;
-    background-size: contain;
-    display: inline-block;
-}
-.app-feature__list {
-    display: inline-block;
-    text-align: left;
-    vertical-align: top;
-    margin-left: 30px;
-}
-.app-feature__list-item {
+    width: 100%;
+    max-width: 940px;
     margin-bottom: 40px;
-    max-width: 300px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 45px;
+}
+.app-list {
+    max-width: 940px;
+    margin: 0 auto;
+}
+.app-feature {
+    max-width: 340px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px 60px;
+    padding-top: 100px;
+}
+.icon_feature_1 {
+    background: url('../img/feature_1.png') no-repeat;
+    background-size: 100px 100px;
+    background-position: center top;
+}
+.icon_feature_2 {
+    background: url('../img/feature_2.png') no-repeat;
+    background-size: 100px 100px;
+    background-position: center top;
+}
+.icon_feature_3 {
+    background: url('../img/feature_3.png') no-repeat;
+    background-size: 100px 100px;
+    background-position: center top;
+}
+.icon_feature_4 {
+    background: url('../img/feature_4.png') no-repeat;
+    background-size: 100px 100px;
+    background-position: center top;
+}
+.app-feature__title {
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 300;
+    margin: 30px 0;
+}
+.app-feature__more {
+    font-size: 48px;
+    font-weight: 300;
+    margin-top: 30px;
 }
 
-
+.plan-title,
+.contact-title {
+    padding: 160px 0 50px 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
 .plan-item {
     display: inline-block;
     color: #535353;
     background-color: #fff;
-    padding: 20px;
+    padding: 20px 20px 45px 20px;
     border-radius: 4px;
     width: 300px;
-    margin: 10px;
+    margin: 8px;
     box-sizing: border-box;
     vertical-align: top;
     transition: box-shadow .3s ease-out;
-    box-shadow: rgba(255, 91, 0, 0.2) 0px 4px 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
 }
 .plan-item:hover {
     transition: box-shadow .3s ease-out;
@@ -161,10 +160,10 @@ body {
 }
 .plan-item__cost {
     font-size: 48px;
-    font-weight: lighter;
+    font-weight: 300;
     color: #FF7200;
-    margin-top: 20px;
-    margin-bottom: 0;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 .plan-item__period {
     opacity: 0.5;
@@ -177,19 +176,20 @@ body {
 .plan-item__list {
     text-align: left;
     list-style-type: none;
-    padding: 5px 20px;
+    padding: 2px 20px;
     margin: 0;
 }
 .plan-item__list-item {
     margin-bottom: 25px;
 }
 
-
 .contact {
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 .contact-form {
-    padding-top: 25px;
+    padding-top: 45px;
+    max-width: 460px;
+    margin: 0 auto;
 }
 .contact-form__input {
     font-family: 'Avenir Next', sans-serif;
@@ -200,8 +200,8 @@ body {
     border: 0;
     border-bottom: 1px solid #cccccc;
     margin: 0 auto;
-    width: 460px;
-    margin-bottom: 65px;
+    width: 100%;
+    margin-bottom: 60px;
     padding-bottom: 20px;
     outline: none;
 }
@@ -213,13 +213,27 @@ body {
     margin-top: 0;
 }
 
-
 .footer {
     background-color: #000;
     padding: 80px 0;
 }
+.footer-block {
+    max-width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
 .footer-link {
-    font-size: 28px;
     color: white;
-    display: block;
+    transition: color .1s ease-out;
+}
+.footer-link:hover {
+    color: #FF7200;
+    transition: color .1s ease-out;
+}
+.footer .logo {
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: -9px;
 }

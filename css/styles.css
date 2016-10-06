@@ -237,3 +237,87 @@ body {
     right: 0;
     top: -9px;
 }
+
+@media (max-width: 414px) {
+    .header {
+        text-align: center;
+        background: none;
+        padding-bottom: 0;
+    }
+    .logo {
+        margin: 0 auto;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .header-title {
+        margin: 0;
+    }
+    .title {
+        font-size: 30px;
+        line-height: 35px;
+        padding: 0 20px;
+    }
+    .caption {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: normal;
+        padding: 0 20px;
+    }
+    .main-button {
+        width: 280px;
+    }
+    .app-title,
+    .plan-title,
+    .contact-title {
+        padding-top: 80px;
+    }
+    .app-img {
+        display: none;
+    }
+    .app-feature {
+        margin: 40px 25px;
+    }
+    .app-feature__title {
+        font-size: 24px;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    .app-feature__caption {
+        font-size: 16px;
+    }
+    .app-feature__more {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .plan-item {
+        width: 300px;
+        padding: 20px;
+        font-size: 16px;
+    }
+    .plan-item__title {
+        font-size: 20px;
+    }
+    .plan-item__cost {
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    .plan-item__list {
+        padding: 0;
+    }
+    .plan-item__list-item {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .contact {
+        padding-bottom: 100px;
+    }
+    .contact-form {
+        padding: 25px 20px 0 20px;
+    }
+    .footer .logo {
+        position: static;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}

@@ -76,15 +76,11 @@ body {
     margin: 0 auto;
 }
 .app-img {
+    width: 100%;
     max-width: 940px;
-    height: 668px;
-    background: url('../img/app_img.png') no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 45px;
     margin-bottom: 40px;
     border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 45px;
 }
 .app-list {
     max-width: 940px;

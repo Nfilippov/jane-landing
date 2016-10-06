@@ -223,10 +223,8 @@ body {
 }
 .footer-block {
     max-width: 940px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin: 0 auto;
+    position: relative;
 }
 .footer-link {
     color: white;
@@ -238,4 +236,8 @@ body {
 }
 .footer .logo {
     margin: 0;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: -9px;
 }
